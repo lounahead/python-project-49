@@ -2,20 +2,20 @@ Brain-games by Lounahead.
 
 This project consists of five brain games:
 
-Brain-even
-Brain-calc
-Brain-gcd
-Brain-progression
-Brain-prime.
-To win you need to answer three times correctly.
+</br>1. Brain-even
+</br>2. Brain-calc
+</br>3. Brain-gcd
+</br>4. Brain-progression
+</br>5. Brain-prime.
+</br>To win you need to answer three times correctly.
 
 Requirements:
-python = "^3.8"
-prompt = "^0.4.1"
+</br>python = "^3.8"
+</br>prompt = "^0.4.1"
 
 Installation and launch:
-For install use "python3 -m pip install";
-For launch use "brain-(name of game)".
+</br>For install use "python3 -m pip install";
+</br>For launch use "brain-(name of game)".
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/lounahead/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/lounahead/python-project-49/actions)
