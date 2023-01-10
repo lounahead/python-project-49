@@ -2,7 +2,7 @@ from random import randint
 RULE = 'What number is missing in the progression?'
 
 
-def game_body():
+def get_game():
     end_prog = randint(50, 60)
     step_prog = randint(1, 5)
     result = list(range(randint(1, 9), end_prog, step_prog))[:10]

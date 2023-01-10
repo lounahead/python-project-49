@@ -1,3 +1,8 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/lounahead/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/lounahead/python-project-49/actions)
+
+<a href="https://codeclimate.com/github/lounahead/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/26173e5fba6cc2e5d558/maintainability" /></a>
+
 Brain-games by Lounahead.
 
 This project consists of five brain games:
@@ -15,19 +20,29 @@ Requirements:
 
 Installation and launch:
 </br>For install use "python3 -m pip install";
-</br>For launch use "brain-(name of game)".
+</br>For launch use "brain-(name of game)":
+</br>- brain-games: poetry run brain-games
+</br>- brain-even:	poetry run brain-even
+</br>- brain-calc:	poetry run brain-calc
+</br>- brain-gcd: poetry run brain-gcd
+</br>- brain-progression: poetry run brain-progression
+</br>- brain-prime: poetry run brain-prime
 
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/lounahead/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/lounahead/python-project-49/actions)
+</br>- build: poetry build
+</br>- publish: poetry publish --dry-run
+</br>- package-install: python3 -m pip install --user  --force-reinstall dist/*.whl
 
-<a href="https://codeclimate.com/github/lounahead/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/26173e5fba6cc2e5d558/maintainability" /></a>
+My asciinema for brain-even
+</br>[![asciicast](https://asciinema.org/a/534840.svg)](https://asciinema.org/a/534840)
 
-https://asciinema.org/a/534840 - my asciinema for brain-even
+My asciinema for brain-calc
+</br>[![asciicast](https://asciinema.org/a/549836.svg)](https://asciinema.org/a/549836)
 
-https://asciinema.org/a/549836 - my asciinema for brain-calc
+My asciinema for brain-gcd
+</br>[![asciicast](https://asciinema.org/a/550421.svg)](https://asciinema.org/a/550421)
 
-https://asciinema.org/a/550421 - my asciinema for brain-gcd
+My asciinema for brain-progression
+</br>[![asciicast](https://asciinema.org/a/550433.svg)](https://asciinema.org/a/550433)
 
-https://asciinema.org/a/550433 - my asciinema for brain-progression
-
-https://asciinema.org/a/550470 - my asciinema for brain-prime
+My asciinema for brain-prime
+</br>[![asciicast](https://asciinema.org/a/550470.svg)](https://asciinema.org/a/550470)
